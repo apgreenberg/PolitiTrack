@@ -1,0 +1,13 @@
+Polititrack/node_modules/**/*
+Polititrack/.expo/*
+Polititrack/npm-debug.*
+Polititrack/*.jks
+Polititrack/*.p8
+Polititrack/*.p12
+Polititrack/*.key
+Polititrack/*.mobileprovision
+Polititrack/*.orig.*
+Polititrack/web-build/
+Polititrack/src/types/
+Polititrack/src/model/users/userData.json
+Polititrack/.git/

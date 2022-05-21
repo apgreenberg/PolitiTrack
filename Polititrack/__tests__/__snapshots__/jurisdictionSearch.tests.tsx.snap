@@ -1,0 +1,385 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Jurisdiction search tests Viewing the jurisdiction selection page 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+>
+  <View
+    style={
+      Object {
+        "flexDirection": "column",
+        "height": "80%",
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <View>
+      <RNCPicker
+        items={
+          Array [
+            Object {
+              "label": "Alabama",
+              "testID": undefined,
+              "textColor": undefined,
+              "value": "Alabama",
+            },
+            Object {
+              "label": "Alaska",
+              "testID": undefined,
+              "textColor": undefined,
+              "value": "Alaska",
+            },
+            Object {
+              "label": "Arizona",
+              "testID": undefined,
+              "textColor": undefined,
+              "value": "Arizona",
+            },
+            Object {
+              "label": "Arkansas",
+              "testID": undefined,
+              "textColor": undefined,
+              "value": "Arkansas",
+            },
+            Object {
+              "label": "California",
+              "testID": undefined,
+              "textColor": undefined,
+              "value": "California",
+            },
+            Object {
+              "label": "Colorado",
+              "testID": undefined,
+              "textColor": undefined,
+              "value": "Colorado",
+            },
+            Object {
+              "label": "Connecticut",
+              "testID": undefined,
+              "textColor": undefined,
+              "value": "Connecticut",
+            },
+            Object {
+              "label": "Delaware",
+              "testID": undefined,
+              "textColor": undefined,
+              "value": "Delaware",
+            },
+            Object {
+              "label": "Florida",
+              "testID": undefined,
+              "textColor": undefined,
+              "value": "Florida",
+            },
+            Object {
+              "label": "Georgia",
+              "testID": undefined,
+              "textColor": undefined,
+              "value": "Georgia",
+            },
+            Object {
+              "label": "Hawaii",
+              "testID": undefined,
+              "textColor": undefined,
+              "value": "Hawaii",
+            },
+            Object {
+              "label": "Idaho",
+              "testID": undefined,
+              "textColor": undefined,
+              "value": "Idaho",
+            },
+            Object {
+              "label": "Illinois",
+              "testID": undefined,
+              "textColor": undefined,
+              "value": "Illinois",
+            },
+            Object {
+              "label": "Indiana",
+              "testID": undefined,
+              "textColor": undefined,
+              "value": "Indiana",
+            },
+            Object {
+              "label": "Iowa",
+              "testID": undefined,
+              "textColor": undefined,
+              "value": "Iowa",
+            },
+            Object {
+              "label": "Kansas",
+              "testID": undefined,
+              "textColor": undefined,
+              "value": "Kansas",
+            },
+            Object {
+              "label": "Kentucky",
+              "testID": undefined,
+              "textColor": undefined,
+              "value": "Kentucky",
+            },
+            Object {
+              "label": "Louisiana",
+              "testID": undefined,
+              "textColor": undefined,
+              "value": "Louisiana",
+            },
+            Object {
+              "label": "Maine",
+              "testID": undefined,
+              "textColor": undefined,
+              "value": "Maine",
+            },
+            Object {
+              "label": "Maryland",
+              "testID": undefined,
+              "textColor": undefined,
+              "value": "Maryland",
+            },
+            Object {
+              "label": "Massachusetts",
+              "testID": undefined,
+              "textColor": undefined,
+              "value": "Massachusetts",
+            },
+            Object {
+              "label": "Michigan",
+              "testID": undefined,
+              "textColor": undefined,
+              "value": "Michigan",
+            },
+            Object {
+              "label": "Minnesota",
+              "testID": undefined,
+              "textColor": undefined,
+              "value": "Minnesota",
+            },
+            Object {
+              "label": "Mississippi",
+              "testID": undefined,
+              "textColor": undefined,
+              "value": "Mississippi",
+            },
+            Object {
+              "label": "Missouri",
+              "testID": undefined,
+              "textColor": undefined,
+              "value": "Missouri",
+            },
+            Object {
+              "label": "Montana",
+              "testID": undefined,
+              "textColor": undefined,
+              "value": "Montana",
+            },
+            Object {
+              "label": "Nebraska",
+              "testID": undefined,
+              "textColor": undefined,
+              "value": "Nebraska",
+            },
+            Object {
+              "label": "Nevada",
+              "testID": undefined,
+              "textColor": undefined,
+              "value": "Nevada",
+            },
+            Object {
+              "label": "New Hampshire",
+              "testID": undefined,
+              "textColor": undefined,
+              "value": "New Hampshire",
+            },
+            Object {
+              "label": "New Jersey",
+              "testID": undefined,
+              "textColor": undefined,
+              "value": "New Jersey",
+            },
+            Object {
+              "label": "New Mexico",
+              "testID": undefined,
+              "textColor": undefined,
+              "value": "New Mexico",
+            },
+            Object {
+              "label": "New York",
+              "testID": undefined,
+              "textColor": undefined,
+              "value": "New York",
+            },
+            Object {
+              "label": "North Carolina",
+              "testID": undefined,
+              "textColor": undefined,
+              "value": "North Carolina",
+            },
+            Object {
+              "label": "North Dakota",
+              "testID": undefined,
+              "textColor": undefined,
+              "value": "North Dakota",
+            },
+            Object {
+              "label": "Ohio",
+              "testID": undefined,
+              "textColor": undefined,
+              "value": "Ohio",
+            },
+            Object {
+              "label": "Oklahoma",
+              "testID": undefined,
+              "textColor": undefined,
+              "value": "Oklahoma",
+            },
+            Object {
+              "label": "Oregon",
+              "testID": undefined,
+              "textColor": undefined,
+              "value": "Oregon",
+            },
+            Object {
+              "label": "Pennsylvania",
+              "testID": undefined,
+              "textColor": undefined,
+              "value": "Pennsylvania",
+            },
+            Object {
+              "label": "Puerto Rico",
+              "testID": undefined,
+              "textColor": undefined,
+              "value": "Puerto Rico",
+            },
+            Object {
+              "label": "Rhode Island",
+              "testID": undefined,
+              "textColor": undefined,
+              "value": "Rhode Island",
+            },
+            Object {
+              "label": "South Carolina",
+              "testID": undefined,
+              "textColor": undefined,
+              "value": "South Carolina",
+            },
+            Object {
+              "label": "South Dakota",
+              "testID": undefined,
+              "textColor": undefined,
+              "value": "South Dakota",
+            },
+            Object {
+              "label": "Tennessee",
+              "testID": undefined,
+              "textColor": undefined,
+              "value": "Tennessee",
+            },
+            Object {
+              "label": "Texas",
+              "testID": undefined,
+              "textColor": undefined,
+              "value": "Texas",
+            },
+            Object {
+              "label": "Utah",
+              "testID": undefined,
+              "textColor": undefined,
+              "value": "Utah",
+            },
+            Object {
+              "label": "Vermont",
+              "testID": undefined,
+              "textColor": undefined,
+              "value": "Vermont",
+            },
+            Object {
+              "label": "Virginia",
+              "testID": undefined,
+              "textColor": undefined,
+              "value": "Virginia",
+            },
+            Object {
+              "label": "Washington",
+              "testID": undefined,
+              "textColor": undefined,
+              "value": "Washington",
+            },
+            Object {
+              "label": "West Virginia",
+              "testID": undefined,
+              "textColor": undefined,
+              "value": "West Virginia",
+            },
+            Object {
+              "label": "Wisconsin",
+              "testID": undefined,
+              "textColor": undefined,
+              "value": "Wisconsin",
+            },
+            Object {
+              "label": "Wyoming",
+              "testID": undefined,
+              "textColor": undefined,
+              "value": "Wyoming",
+            },
+          ]
+        }
+        onChange={[Function]}
+        selectedIndex={0}
+        style={
+          Array [
+            Object {
+              "height": 216,
+            },
+            undefined,
+          ]
+        }
+      />
+    </View>
+  </View>
+  <View>
+    <View
+      accessibilityRole="button"
+      accessibilityState={Object {}}
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {},
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#007AFF",
+                "fontSize": 18,
+                "margin": 8,
+                "textAlign": "center",
+              },
+            ]
+          }
+        >
+          Add Alabama
+        </Text>
+      </View>
+    </View>
+  </View>
+</RCTSafeAreaView>
+`;

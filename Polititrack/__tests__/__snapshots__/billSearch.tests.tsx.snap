@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Bill search tests Viewing the my Bill search page 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+>
+  <Text
+    style={
+      Object {
+        "fontSize": 24,
+        "textAlign": "center",
+      }
+    }
+  >
+    Select a jurisdiction:
+  </Text>
+  <Text>
+    Loading
+  </Text>
+  <Text>
+    Loading
+  </Text>
+  <Text>
+    Loading
+  </Text>
+</RCTSafeAreaView>
+`;
+
+exports[`Bill search tests Viewing the my Bill search page 2`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+>
+  <Text
+    style={
+      Object {
+        "fontSize": 24,
+        "textAlign": "center",
+      }
+    }
+  >
+    Select a jurisdiction:
+  </Text>
+  <Text>
+    No more mocked responses for the query: query getJurisdictionDetails($id: String!) {
+  jurisdiction(id: $id) {
+    legislativeSessions(first: 30) {
+      edges {
+        node {
+          identifier
+          name
+          startDate
+          endDate
+        }
+      }
+    }
+  }
+}
+, variables: {"id":"ocd-jurisdiction/country:us/state:de/government"}
+  </Text>
+  <Text>
+    No more mocked responses for the query: query getJurisdictionDetails($id: String!) {
+  jurisdiction(id: $id) {
+    legislativeSessions(first: 30) {
+      edges {
+        node {
+          identifier
+          name
+          startDate
+          endDate
+        }
+      }
+    }
+  }
+}
+, variables: {"id":"ocd-jurisdiction/country:us/state:ks/government"}
+  </Text>
+  <Text>
+    No more mocked responses for the query: query getJurisdictionDetails($id: String!) {
+  jurisdiction(id: $id) {
+    legislativeSessions(first: 30) {
+      edges {
+        node {
+          identifier
+          name
+          startDate
+          endDate
+        }
+      }
+    }
+  }
+}
+, variables: {"id":"ocd-jurisdiction/country:us/state:mo/government"}
+  </Text>
+</RCTSafeAreaView>
+`;

@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Bill Detail tests Bill details network error screen 1`] = `
+<View>
+  <Text
+    style={
+      Object {
+        "fontSize": 12,
+        "textAlign": "center",
+      }
+    }
+  >
+    Error: 
+    Network error!
+  </Text>
+</View>
+`;
+
+exports[`Bill Detail tests Legislature details graphql error screen 1`] = `
+<View>
+  <Text
+    style={
+      Object {
+        "fontSize": 12,
+        "textAlign": "center",
+      }
+    }
+  >
+    Error: 
+    GraphQL Error!
+  </Text>
+</View>
+`;
+
+exports[`Bill Detail tests bill loading and success screen 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "fontSize": 20,
+      }
+    }
+  >
+    Loading
+  </Text>
+</View>
+`;
+
+exports[`Bill Detail tests bill loading and success screen 2`] = `null`;

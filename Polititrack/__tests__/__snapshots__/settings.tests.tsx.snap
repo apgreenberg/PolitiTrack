@@ -1,0 +1,228 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests the settings screen and toggling the notifications Viewing the settings page 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+>
+  <View
+    style={
+      Object {
+        "paddingLeft": 10,
+        "paddingRight": 10,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "borderBottomWidth": 3,
+          "paddingBottom": 10,
+          "paddingTop": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "fontSize": 24,
+              "textAlign": "center",
+            },
+            Object {
+              "textAlign": "left",
+            },
+          ]
+        }
+      >
+        Notifications
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "borderBottomColor": "#9ca7b8",
+          "borderBottomWidth": 1,
+          "flexDirection": "row",
+          "paddingBottom": 5,
+          "paddingTop": 5,
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "left": 15,
+            "paddingRight": 10,
+            "width": "85%",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 16,
+                "textAlign": "center",
+              },
+              Object {
+                "textAlign": "left",
+              },
+            ]
+          }
+        >
+          Notify me when one of my saved jurisdictions becomes active
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "right": 0,
+          }
+        }
+      >
+        <RCTSwitch
+          accessibilityRole="switch"
+          onChange={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          onTintColor="#216ba3"
+          style={
+            Array [
+              Object {
+                "height": 31,
+                "width": 51,
+              },
+              Object {
+                "backgroundColor": "#9ca7b8",
+                "borderRadius": 16,
+              },
+            ]
+          }
+          testID="jurisdictionSetting"
+          thumbTintColor="white"
+          tintColor="#9ca7b8"
+          value={true}
+        />
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "borderBottomColor": "#9ca7b8",
+          "borderBottomWidth": 1,
+          "flexDirection": "row",
+          "paddingBottom": 5,
+          "paddingTop": 5,
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "left": 15,
+            "paddingRight": 10,
+            "width": "85%",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 16,
+                "textAlign": "center",
+              },
+              Object {
+                "textAlign": "left",
+              },
+            ]
+          }
+        >
+          Notify me when one of my saved bills is updated
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "right": 0,
+          }
+        }
+      >
+        <RCTSwitch
+          accessibilityRole="switch"
+          onChange={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          onTintColor="#216ba3"
+          style={
+            Array [
+              Object {
+                "height": 31,
+                "width": 51,
+              },
+              Object {
+                "backgroundColor": "#9ca7b8",
+                "borderRadius": 16,
+              },
+            ]
+          }
+          testID="billSetting"
+          thumbTintColor="white"
+          tintColor="#9ca7b8"
+          value={true}
+        />
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "height": "40%",
+          "paddingTop": 20,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignSelf": "center",
+            "backgroundColor": "#dae8eb",
+            "borderBottomWidth": 2,
+            "borderColor": "#9ca7b8",
+            "borderLeftWidth": 1,
+            "borderRadius": 5,
+            "borderRightWidth": 1,
+            "borderTopWidth": 2,
+            "height": "90%",
+            "justifyContent": "center",
+            "opacity": 1,
+            "width": "90%",
+          }
+        }
+        testID="customButton"
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 24,
+              "textAlign": "center",
+            }
+          }
+        >
+          Update Account Information
+        </Text>
+      </View>
+    </View>
+  </View>
+</RCTSafeAreaView>
+`;

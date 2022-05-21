@@ -1,0 +1,239 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Legislator Detail tests Legislator details network error screen 1`] = `
+<View>
+  <Text
+    style={
+      Object {
+        "fontSize": 12,
+        "textAlign": "center",
+      }
+    }
+  >
+    Error: 
+    Network error!
+  </Text>
+</View>
+`;
+
+exports[`Legislator Detail tests Legislature details graphql error screen 1`] = `
+<View>
+  <Text
+    style={
+      Object {
+        "fontSize": 12,
+        "textAlign": "center",
+      }
+    }
+  >
+    Error: 
+    GraphQL Error!
+  </Text>
+</View>
+`;
+
+exports[`Legislator Detail tests legislator loading and success screen 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "fontSize": 20,
+      }
+    }
+  >
+    Loading
+  </Text>
+</View>
+`;
+
+exports[`Legislator Detail tests legislator loading and success screen 2`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+>
+  <Text
+    style={
+      Object {
+        "fontSize": 24,
+        "textAlign": "center",
+      }
+    }
+  >
+    Carol Ammons
+  </Text>
+  <View
+    style={
+      Object {
+        "borderBottomWidth": 2,
+        "flexDirection": "row",
+        "padding": 5,
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "uri": "http://ilga.gov/images/members/{BD4B7A5C-6D24-4E82-9C18-D5A0F3C42F6C}.jpg",
+        }
+      }
+      style={
+        Object {
+          "height": 70,
+          "width": 70,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+            "textAlign": "center",
+          }
+        }
+      >
+        Party: 
+        Democratic
+      </Text>
+      <Text
+        onPress={[Function]}
+        style={
+          Array [
+            Object {
+              "fontSize": 16,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "blue",
+            },
+          ]
+        }
+      >
+        Assistance@StateRepCarolAmmons.com
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "height": "70%",
+        "justifyContent": "space-around",
+        "padding": 20,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "height": "50%",
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignSelf": "center",
+            "backgroundColor": "#dae8eb",
+            "borderBottomWidth": 2,
+            "borderColor": "#9ca7b8",
+            "borderLeftWidth": 1,
+            "borderRadius": 5,
+            "borderRightWidth": 1,
+            "borderTopWidth": 2,
+            "height": "90%",
+            "justifyContent": "center",
+            "opacity": 1,
+            "width": "90%",
+          }
+        }
+        testID="customButton"
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 24,
+              "textAlign": "center",
+            }
+          }
+        >
+          Committees
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "height": "50%",
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignSelf": "center",
+            "backgroundColor": "#dae8eb",
+            "borderBottomWidth": 2,
+            "borderColor": "#9ca7b8",
+            "borderLeftWidth": 1,
+            "borderRadius": 5,
+            "borderRightWidth": 1,
+            "borderTopWidth": 2,
+            "height": "90%",
+            "justifyContent": "center",
+            "opacity": 1,
+            "width": "90%",
+          }
+        }
+        testID="customButton"
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 24,
+              "textAlign": "center",
+            }
+          }
+        >
+          Voting History
+        </Text>
+      </View>
+    </View>
+  </View>
+</RCTSafeAreaView>
+`;
